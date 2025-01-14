@@ -1,0 +1,53 @@
+.about {
+    padding-top: 30px;        
+    background: lightblue url('../images/home.jpeg') no-repeat fixed center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur (10px);
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif; 
+    
+}
+.about-main{    
+    margin: auto;  
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif; 
+    scroll-behavior: smooth; 
+    background:transparent; 
+
+
+   }
+.about-container{
+    background-color: aliceblue;
+    margin-top: 40px;    
+    padding: 25px;
+    font-size: large;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   }
+.about-box{
+    background-color:#0d2c3f;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 12px 0px 8px 0px;
+    border-radius:12px;
+    transition: 0.3s; 
+
+   }
+.about-box:hover{
+    transform: scale(1.025);
+}
+@media(max-width: 600px) {
+.about-main{
+    width: 100%;
+}
+.about-box{
+    padding: 8px;
+}
+.about-container{
+    padding: 20px 10px;
+}
+}

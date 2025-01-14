@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wp-main{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 3;
+    bottom: 40px;
+    right: 20px;
+}
