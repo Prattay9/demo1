@@ -7,9 +7,9 @@ const PORT = process.env.PORT;
 const path=require("path");
 
 const corsOption = {
-    origin: "http://localhost:3000",
-    methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
-    Credentials: true,
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true;
 }
 
 app.use(cors(corsOption));
