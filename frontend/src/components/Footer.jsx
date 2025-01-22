@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Contact Us</h4>
                     <ul>
-                        <li>Email: <a href="mailto:mailtilak321@rediffmail.com">mailtilak321@rediffmail.com</a></li>
-                        <li>Helpline: <a href="tel:+91 86172 59790">+91 86172 59790</a></li>
+                        <li>Email: <a href="">demo@demo.com</a></li>
+                        <li>Helpline: <a href="">xxxxxxxxxxx</a></li>
                     </ul>
                 </div>
                 <div className="footer-section">
