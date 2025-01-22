@@ -13,7 +13,7 @@ const Navbar = () => {
         <>
         <div className="nav">
             <div className="navbar">
-                <div className='nav-title'><h4>IBP Excellence Academy</h4></div>
+                <div className='nav-title'><h4>Elpis Learning Consultants LLP </h4></div>
                 <div className='lalu'>
                     <span className='span' onClick={onChange}><i className="ri-menu-line"></i></span>
                     <div className="nav-items">
