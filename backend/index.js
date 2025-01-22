@@ -9,7 +9,7 @@ const path=require("path");
 const corsOption = {
     origin: ["https://deploy-mern-1whq.vercel.app"],
     methods: ["POST", "GET"],
-    credentials: true;
+    credentials: true,
 }
 
 app.use(cors(corsOption));
