@@ -207,7 +207,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="home-heading-for-all">            
+{/*           <div className="home-heading-for-all">            
           <h1>Course Content</h1>
             <div className='head-point'>
               <h3>Module 1: SAP Integrated Business Planning</h3>
@@ -368,7 +368,7 @@ const Home = () => {
                 </ul>
               </div>              
             </div>            
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
