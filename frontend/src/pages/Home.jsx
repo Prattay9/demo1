@@ -70,7 +70,7 @@ const Home = () => {
     <Whatsapp/>
         
         <div className="home-main">
-          <div className="home-form">
+{/*           <div className="home-form">
               <form className="my-form" onSubmit={handleSubmit}>
                 <img className='home-image' src={Image} alt="" />
                 <div className="home-1">
@@ -122,7 +122,7 @@ const Home = () => {
                   <button className="home-btn" type='submit'>Submit</button>
                 </div>
               </form>
-           </div>
+           </div> */}
            
 
         
